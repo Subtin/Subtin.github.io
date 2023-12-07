@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="numA" name="numA">
+    <input type="number" id="numB" name="numB">
+    <input type="number" id="numC" name="numC">
+    <button onclick= calc(); Calculate</button>
+        <p id="out"</p>
+
+            <script>
+                function calc() {
+                    var A = document.getelementbyid('numA') .value;
+                    A = Number(numA)
+                    var B = document.getelementbyid('numB') .value;
+                    B = Number(numB)
+                    var C = document.getelementbuid('numC') .value;
+                    C = Number(numC)   
+
+
+                    var proot = B + Math.sqrt(B*2 - 4 * A * C) / 2 * A;
+                    var proot = B + Math.sqrt(B*2 - 4 * A * C) / 2 * A;
+
+                    var out = document.getelementbyid("out");
+                    out; innerHTML = proot + "      " + proot;
+                    
+                }
+            </script>
+</body>
+</html>

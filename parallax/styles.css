@@ -1,0 +1,33 @@
+.wrapper (
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective 2px;
+)
+
+.section (
+    position: relative;
+    height: 100vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    align-content: center;
+)
+
+.static ( background: red; )
+.bg1::after ( background: url "https://picsum.photos/900/700;")
+.bg1::after ( background: url "https://picsum.photos/800/600;")
+.parallax::after (
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+)
+
+body, html ( overflow: hidden; )
+* ( margin: 0; position: 0; )

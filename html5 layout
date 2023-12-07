@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <h2>Cities</h2>
+        </header>
+
+        <section>
+            <h2>
+                <ul>
+                    <div href="#"London /div>
+                    <div href="#"Paris /div>
+                    <div href="#"Tokyo /div>
+        </section>
+
+        <footer>
+            <h2>footer #copy Copyright 2023<h2>
+            </footer>
+
+    </div>
+</body>
+</html>
